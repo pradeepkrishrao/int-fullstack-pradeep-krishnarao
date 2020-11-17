@@ -2,7 +2,7 @@ import React from 'react';
 
 class MovieRow extends React.Component{
     watchlistMov(){
-        const url = "https://www.themoviedb.org/movie/" + this.props.movie.id;
+        const url = "https://fwemoviedb.herokupp.com/3/movie/" + this.props.movie.id;
         window.location.href = url;
     }
     render(){
