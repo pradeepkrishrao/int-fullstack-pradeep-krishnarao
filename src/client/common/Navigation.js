@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-import './PrimaryLogo_Green.svg';
 
 export default class Navigation extends React.Component{
   static contextTypes = {
@@ -17,7 +16,7 @@ export default class Navigation extends React.Component{
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <Link to="/" className="navbar navbar-expand-lg navbar-light bg-light"><img width="100" height="100" src="./PrimaryLogo_Green.svg" alt="The Moviedb logo"/></Link>
+            <Link to="/" className="navbar navbar-expand-lg navbar-light bg-light">"/></Link>
           </div>
 <div className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right smooth-scroll">
