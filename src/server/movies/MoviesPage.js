@@ -10,8 +10,8 @@ class MoviesPage extends Component {
     this.performSearch("star");
   }
   performSearch(searchTerm){
-    console.log("Perform search using moviedb");
-    const urlString = "https://api.themoviedb.org/3/search/movie?api_key=74a51a603972af3f75d4f25e962588ab&query=" + searchTerm;
+    console.log("Perform search using fwemoviedb");
+    const urlString = "https://fwemoviedb.herokuapp.com/3/search/movie/popular?api_key=e800e93ef4806616964242bdd2619ae1&query=" + searchTerm;
     $.ajax({
       url: urlString,
       success: (searchResults) => {
@@ -19,7 +19,7 @@ class MoviesPage extends Component {
         var movieRows = [];
         const results = searchResults.results;
        results.forEach((movie) => {
-         movie.poster_path = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
+         movie.poster_path = "https://fwemoviedb.herokupp.com/img/w440_and_h660_face/r4jFaeVIPG12zXEDtmrwrx9orIY4.jpg" + movie.poster_path;
           const movieRow = <MovieRow key={movie.id} movie = {movie}/>
           movieRows.push(movieRow);
        })
@@ -44,7 +44,7 @@ class MoviesPage extends Component {
           <tbody>
             <tr>
               <td style={{paddingLeft: "10px"}}>
-                  <h3>The MovieDB search</h3>
+                  <h3>Fireworks Entertainment search</h3>
               </td>
               </tr>
           </tbody>
