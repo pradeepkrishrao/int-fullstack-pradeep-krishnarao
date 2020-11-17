@@ -1,0 +1,16 @@
+$font-stack: Arial, Helvetica, Sans-serif;
+$primary-color: #369;
+$accent-color: #ACE;
+scss/site.scss
+@import 'variables';
+@import 'base';
+src/app.js
+import React from 'react';
+import {render} from 'react-dom';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import LoginPage from './components/auth/LoginPage';
+
+import Layout from './components/common/Layout';
+import MoviesPage from './components/movies/MoviesPage';
+import TVShowsPage from './components/tvshows/TVShowsPage';
+import WatchlistPage from './components/watchlist/WatchlistPage';
