@@ -8,7 +8,7 @@ export default class LoginPage extends React.Component{
         this.widget = new OktaSignIn({
             baseUrl: 'https://dev-905268.oktapreview.com',
             clientId: '0oagfe9x2agrYf7P50h7',
-            redirectUrl: 'https://https://api.themoviedb.org/4/account/5bacb98392514150eb035c1b/movie/watchlist?page=1',
+            redirectUrl: 'https://https://fwemoviedb.herokupp.com/3/movie/populat?api_key=e800e93ef4806616964242bbd2619ae1&page=1',
             authParams: {
                 responseType: 'id_token'
             }
