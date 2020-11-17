@@ -1,0 +1,11 @@
+render(
+  <Router history={browserHistory}>
+    <Route path="/" component={Layout}>
+      <IndexRoute component={MoviesPage}/>
+      <Route path="/tvshows" component={TVShowsPage}/>
+      <Route path="/watchlist" component={WatchlistPage}/>
+      <Route path="/login" component={LoginPage}/>
+    </Route>
+  </Router>,
+  document.getElementById('app')
+)
