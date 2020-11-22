@@ -23,9 +23,8 @@ class ResultsPage extends Component{
       <div className="max-w-sm w-full lg:max-w-full lg:flex mt-4">
       <div
           className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          style="
-            background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg');
-          "
+          style=
+            {{backgroundImage: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg')}}
           title="Star Wars"
         ></div>
         <div
@@ -51,9 +50,8 @@ class ResultsPage extends Component{
       <div className="max-w-sm w-full lg:max-w-full lg:flex mt-4">
         <div
           className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          style="
-            background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/hN2ZtF3Uw6mhIHZiqL0SKzELtKn.jpg');
-          "
+          style=
+            {{backgroundImage: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/hN2ZtF3Uw6mhIHZiqL0SKzELtKn.jpg')}}
           title="Star Trek"
         ></div>
         <div
@@ -80,9 +78,8 @@ class ResultsPage extends Component{
       <div className="max-w-sm w-full lg:max-w-full lg:flex mt-4">
       <div
           className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          style="
-            background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/db32LaOibwEliAmSL2jjDF6oDdj.jpg');
-          "
+          style=
+            {{backgroundImage: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/db32LaOibwEliAmSL2jjDF6oDdj.jpg')}}
           title="Star Wars: The Rise of Skywalker"
         ></div>
         <div
@@ -106,9 +103,8 @@ class ResultsPage extends Component{
       <div className="max-w-sm w-full lg:max-w-full lg:flex mt-4">
         <div
           className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          style="
-            background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/cldAwhvBmOv9jrd3bXWuqRHoXyq.jpg');
-          "
+          style=
+            {{background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/cldAwhvBmOv9jrd3bXWuqRHoXyq.jpg')}}
           title="Star Trek: Nemesis"
         ></div>
         <div
@@ -135,9 +131,8 @@ class ResultsPage extends Component{
       <div className="max-w-sm w-full lg:max-w-full lg:flex mt-4">
       <div
           className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          style="
-            background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/m7SHlvcGfCkbzk2xP7XHDOI6o93.jpg');
-          "
+          style=
+            {{background-image: url('https://fwemoviedb.herokuapp.com/img/w188_and_h282_bestv2/m7SHlvcGfCkbzk2xP7XHDOI6o93.jpg')}}
           title="Star Trek Beyond"
         ></div>
         <div
