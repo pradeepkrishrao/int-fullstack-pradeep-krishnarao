@@ -48,6 +48,8 @@ output: {
     sourceMapFilename: '[file].map'
   },
   devServer: {
+    compress: true,
+    disableHostCheck: true,
     contentBase: path.join(__dirname, 'src'),
     port: 3000,
     filename: '[app].bundle.js',
