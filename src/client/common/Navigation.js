@@ -16,13 +16,13 @@ export default class Navigation extends React.Component{
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <Link to="/" className="navbar navbar-expand-lg navbar-light bg-light">"/></Link>
+            <Link to="/" className="navbar navbar-expand-lg navbar-light bg-light"></Link>
           </div>
-<div className="navbar-collapse collapse">
+          <div className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right smooth-scroll">
               <li><Link to="/">Movies</Link></li>
-              <li><Link to="tvshows">TVShows</Link></li>
-              <li><Link to="watchlist">Watchlist</Link></li>
+              <li><Link to="details">Details</Link></li>
+              <li><Link to="results">Results</Link></li>
               <li><Link to="login">Login</Link></li>
             </ul>
           </div>
