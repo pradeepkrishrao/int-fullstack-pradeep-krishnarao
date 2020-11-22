@@ -16,7 +16,7 @@ render(
       <IndexRoute component={MoviesTVPage}/>
       <Route path="/details" component={DetailsPage}/>
       <Route path="/results" component={ResultsPage}/>
-      <Route path="/login" component={LoginPage}/>
+      <Route path="/auth" component={LoginPage}/>
     </Route>
   </Router>,
   document.getElementById('app')
